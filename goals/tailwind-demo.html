@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Polish</title>
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="py-8">
+        <form
+            class="rounded px-8">
+            <div class="w-full px-3 mb-6">
+                <label for="fullNameInput"
+                    class="font-bold">Full Name</label>
+                <input type="text" id="fullNameInput"
+                    class="rounded shadow focus:outline-none">
+            </div>
+            <div class="w-full px-3 mb-6">
+                <label for="pwdInput"
+                    class="font-bold">Password</label>
+                <input type="password" placeholder="*******" id="pwdInput"
+                    class="rounded shadow">
+            </div>
+            <div class="w-full px-3 mb-6">
+                <label for="roleSelect"
+                    class="font-bold">Role</label>
+                <select id="roleSelect"
+                    class="w-full bg-white px-4 py-2 rounded hover:border-gray-500 shadow focus:outline-none focus:shadow-outline">
+                    <option>Admin</option>
+                    <option>User</option>
+                </select>
+            </div>
+            <div class="w-full px-3 mb-6">
+                <button id="formSubmitBtn" type="button"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-2 px-4">Sign Up</button>
+                <button id="resetBtn" type="button">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
