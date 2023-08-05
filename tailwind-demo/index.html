@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adding Polish</title>
     <link rel="stylesheet" href="reset.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
     <form>
         <div>
-            <label for="fullNameInput">Full Name</label>
+            <label for="fullNameInput" class="block text-gray-700 text-sm font-bold mb-2">Full Name</label>
             <input type="text" id="fullNameInput">
         </div>
         <div>
@@ -25,7 +26,7 @@
             </select>
         </div>
         <div>
-            <button id="formSubmitBtn" type="button">Sign Up</button>
+            <button id="formSubmitBtn" type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Sign Up</button>
             <button id="resetBtn" type="button">Reset</button>
         </div>
     </form>
